@@ -12,8 +12,6 @@ export class ContactManagerComponent implements OnInit {
   public loading: boolean = false;
   public contacts: MyContact[] = [];
   public errorMessage: string | null = null;
-  // public searchInput!: [];
-  // searchInput!: FormControl;
   searchForm!: FormGroup;
   constructor(private contService: ContactService) {}
 
